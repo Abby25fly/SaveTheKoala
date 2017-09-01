@@ -1,0 +1,148 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+header{
+position: relative;
+padding-top: 84px;
+color: white;
+}
+
+header nav{
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+height: 70px;
+background-color: transparent;
+}
+.headText{
+  padding-top: 10px;
+}
+header nav ul{
+line-height: 70px;
+text-align: right;
+padding-right: 80px;
+}
+
+nav ul li a{
+text-transform: uppercase;
+color: white;
+}
+
+.bienvenida{
+  background-image: url("../img/portada.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+  height: 680px;
+}
+
+.text1{
+  font-weight: bold;
+  padding-top: 200px;
+  padding-left: 10%;
+}
+
+.btn {
+  background-color: #41521F;
+  color: white;
+  font-weight: bold;
+}
+
+/* Parte 2 */
+.parte2-section{
+	margin: 90px auto;
+}
+.title{
+	color: #A89F68;
+	font-weight: bold;
+}
+/* Parte 3 */
+.parte3-section{
+  background-color: #A89F68;
+	padding: 60px 0px;
+	color: white;
+}
+.text3{
+  color: #41521F;
+	font-weight: bold;
+}
+.imgCosita{
+	border: 10px solid #FFF;
+  margin-right: 10%;
+}
+/* Parte 4 */
+.parte4-section{
+  background-image: url("../img/all.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  width: 100%;
+  height: 680px;
+}
+
+.help{
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+/* Parte 5 */
+.parte5{
+  margin-top: 30px;
+  color: #A89F68;
+}
+.Icons{
+  margin: 30px 0px;
+  padding: 0px 30px;
+  color: #A89F68;
+}
+
+.Icons i{
+  font-size: 6em;
+  margin-bottom: 15px;
+}
+
+/* Parte 6 */
+.parte6{
+	background-color: #A89F68;
+  width: 100%;
+  padding: 80px 0px;
+  color: #41521F;
+  font-weight: bold;
+}
+
+.donate{
+  margin: 30px 0px;
+  padding: 0px 30px;
+  color: #333;
+}
+.benefit p{
+	padding: 5px;
+	border-top: 1px solid #FFF;
+}
+.price{
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+.num{
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+
+footer{
+	background-color: #41521F;
+	color: #FFF;
+	padding: 80px 0;
+}
+
+.listaFooter li a{
+    color: #A89F68;
+}
