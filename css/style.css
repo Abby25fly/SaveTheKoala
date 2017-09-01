@@ -5,7 +5,10 @@ army green: 41521F;
 body {
 font-family: 'Montserrat', sans-serif;
 }
-
+.links{
+  float: right;
+}
+/*
 header{
 position: relative;
 padding-top: 84px;
@@ -23,6 +26,7 @@ background-color: transparent;
 .headText{
   padding-top: 10px;
 }
+
 header nav ul{
 line-height: 70px;
 text-align: right;
@@ -33,7 +37,7 @@ nav ul li a{
 text-transform: uppercase;
 color: white;
 }
-
+*/
 .bienvenida{
   background-image: url("../img/portada.jpg");
   background-size: cover;
