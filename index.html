@@ -11,29 +11,34 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://use.fontawesome.com/6bff936249.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
-    <section class="container bienvenida">
-      <header>
-        <nav>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-6">
-                <h4 class="headText">Save The Koala</h4>
-              </div>
-              <div class="col-md-6">
-                <ul class="list-inline hidden-sm hidden-xs">
-                  <li><a href="#">Foundation</a></li>
-                  <li><a href="#">Koalas</a></li>
-                  <li><a href="#">Donate</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Desplegar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#saveKoala">Save the Koala</a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav links">
+          <li><a href="#foundation">Foundation</a></li>
+          <li><a href="#koalas">Koalas</a></li>
+          <li><a href="#donate">Donate</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container bienvenida" id="saveKoala">
       <div class="container">
         <div class="row">
           <div class="col-md-4 text1">
@@ -49,7 +54,7 @@
     </section>
 
 <!-- seccion 2 -->
-    <section class="parte2-section">
+    <section class="parte2-section" id="foundation">
       <div class="container">
          <div class="row">
             <div class="col-md-6 hidden-sm hidden-xs">
@@ -80,7 +85,7 @@
     </section>
 
     <!-- seccion 3 -->
-    <section class="parte3-section">
+    <section class="parte3-section" id="koalas">
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-6 col-md-6">
@@ -143,7 +148,7 @@
     </section>
 
     <!-- seccion 6 -->
-    <section class="container parte6">
+    <section class="container parte6" id="donate">
       <div class="text-center">
         <h2>It’s not hard to see how we can help.</h2>
       </div>
